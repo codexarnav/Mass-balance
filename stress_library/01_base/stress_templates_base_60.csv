@@ -1,0 +1,61 @@
+stress_id,stress_type,reagent,strength,unit,pH,temperature_C,duration_hr,light_lux_hr,uv_Wh_m2,humidity_RH,source,freq_weight,notes
+AC01,acid_hydrolysis,HCl,0.01,N,2.0,25.0,6.0,,,,ICH_BASE,0.03,mild acid RT
+AC02,acid_hydrolysis,HCl,0.01,N,2.0,40.0,3.0,,,,ICH_BASE,0.04,mild acid 40C
+AC03,acid_hydrolysis,HCl,0.01,N,2.0,60.0,1.0,,,,ICH_BASE,0.04,mild acid 60C short
+AC04,acid_hydrolysis,HCl,0.05,N,1.5,40.0,6.0,,,,ICH_BASE,0.05,moderate acid 40C long
+AC05,acid_hydrolysis,HCl,0.1,N,1.2,25.0,24.0,,,,ICH_BASE,0.03,0.1N acid long RT
+AC06,acid_hydrolysis,HCl,0.1,N,1.2,40.0,6.0,,,,ICH_BASE,0.06,0.1N acid 40C
+AC07,acid_hydrolysis,HCl,0.1,N,1.2,60.0,2.0,,,,ICH_BASE,0.08,0.1N acid 60C common
+AC08,acid_hydrolysis,HCl,0.1,N,1.2,60.0,6.0,,,,ICH_BASE,0.05,0.1N acid 60C long
+AC09,acid_hydrolysis,HCl,0.5,N,0.8,25.0,2.0,,,,ICH_BASE,0.03,0.5N acid RT short
+AC10,acid_hydrolysis,HCl,1.0,N,0.5,25.0,2.0,,,,ICH_BASE,0.03,strong acid RT short
+AC11,acid_hydrolysis,HCl,1.0,N,0.5,40.0,1.0,,,,ICH_BASE,0.04,strong acid 40C
+AC12,acid_hydrolysis,HCl,1.0,N,0.5,60.0,0.5,,,,ICH_BASE,0.04,strong acid 60C very short
+AC13,acid_hydrolysis,H2SO4,0.1,N,1.0,60.0,2.0,,,,ICH_BASE,0.02,alt acid sulfuric
+AC14,acid_hydrolysis,H3PO4,0.1,N,1.5,60.0,2.0,,,,ICH_BASE,0.02,alt acid phosphoric
+BA01,base_hydrolysis,NaOH,0.01,N,12.0,25.0,6.0,,,,ICH_BASE,0.03,mild base RT
+BA02,base_hydrolysis,NaOH,0.01,N,12.0,40.0,3.0,,,,ICH_BASE,0.04,mild base 40C
+BA03,base_hydrolysis,NaOH,0.01,N,12.0,60.0,1.0,,,,ICH_BASE,0.04,mild base 60C short
+BA04,base_hydrolysis,NaOH,0.05,N,12.5,40.0,6.0,,,,ICH_BASE,0.05,moderate base 40C long
+BA05,base_hydrolysis,NaOH,0.1,N,13.0,25.0,24.0,,,,ICH_BASE,0.03,0.1N base long RT
+BA06,base_hydrolysis,NaOH,0.1,N,13.0,40.0,6.0,,,,ICH_BASE,0.06,0.1N base 40C
+BA07,base_hydrolysis,NaOH,0.1,N,13.0,60.0,1.0,,,,ICH_BASE,0.08,0.1N base 60C common
+BA08,base_hydrolysis,NaOH,0.1,N,13.0,60.0,2.0,,,,ICH_BASE,0.05,0.1N base 60C longer
+BA09,base_hydrolysis,NaOH,0.5,N,13.5,25.0,2.0,,,,ICH_BASE,0.03,0.5N base RT short
+BA10,base_hydrolysis,NaOH,1.0,N,14.0,25.0,2.0,,,,ICH_BASE,0.03,strong base RT short
+BA11,base_hydrolysis,NaOH,1.0,N,14.0,40.0,1.0,,,,ICH_BASE,0.04,strong base 40C
+BA12,base_hydrolysis,NaOH,1.0,N,14.0,60.0,0.5,,,,ICH_BASE,0.04,strong base 60C very short
+OX01,oxidation,H2O2,0.3,%,,25.0,6.0,,,,ICH_BASE,0.03,very mild oxidation
+OX02,oxidation,H2O2,0.5,%,,25.0,3.0,,,,ICH_BASE,0.04,0.5% oxidation RT
+OX03,oxidation,H2O2,1.0,%,,25.0,3.0,,,,ICH_BASE,0.05,1% oxidation RT
+OX04,oxidation,H2O2,3.0,%,,25.0,1.0,,,,ICH_BASE,0.08,3% oxidation RT very common
+OX05,oxidation,H2O2,3.0,%,,25.0,0.5,,,,ICH_BASE,0.06,3% oxidation 30 min
+OX06,oxidation,H2O2,3.0,%,,40.0,2.0,,,,ICH_BASE,0.05,3% oxidation 40C
+OX07,oxidation,H2O2,10.0,%,,25.0,1.0,,,,ICH_BASE,0.04,10% oxidation RT
+OX08,oxidation,H2O2,10.0,%,,40.0,2.0,,,,ICH_BASE,0.03,10% oxidation 40C
+OX09,oxidation,H2O2,10.0,%,,60.0,0.5,,,,ICH_BASE,0.02,10% oxidation 60C
+OX10,oxidation,H2O2,30.0,%,,25.0,0.5,,,,ICH_BASE,0.01,aggressive peroxide
+OX11,oxidation,tert-Butyl hydroperoxide,0.1,M,,25.0,2.0,,,,ICH_BASE,0.01,TBHP oxidation
+OX12,oxidation,AIBN,10.0,mg/mL,,60.0,6.0,,,,ICH_BASE,0.01,radical initiator
+OX13,oxidation,H2O2,1.0,%,,40.0,6.0,,,,ICH_BASE,0.02,1% oxidation 40C long
+OX14,oxidation,H2O2,3.0,%,,60.0,0.5,,,,ICH_BASE,0.02,3% oxidation 60C
+OX15,oxidation,H2O2,0.3,%,,40.0,3.0,,,,ICH_BASE,0.02,0.3% oxidation 40C
+OX16,oxidation,H2O2,0.5,%,,40.0,3.0,,,,ICH_BASE,0.02,0.5% oxidation 40C
+TH01,thermal,dry_heat,,NA,,60.0,72.0,,,,ICH_BASE,0.04,dry heat 60C 3 days
+TH02,thermal,dry_heat,,NA,,80.0,24.0,,,,ICH_BASE,0.08,dry heat 80C common
+TH03,thermal,dry_heat,,NA,,80.0,72.0,,,,ICH_BASE,0.04,dry heat 80C long
+TH04,thermal,dry_heat,,NA,,105.0,6.0,,,,ICH_BASE,0.04,dry heat 105C short
+TH05,thermal,wet_heat,,NA,,60.0,24.0,,,,ICH_BASE,0.03,wet heat 60C
+TH06,thermal,wet_heat,,NA,,80.0,6.0,,,,ICH_BASE,0.02,wet heat 80C short
+TH07,thermal,autoclave,,NA,,121.0,0.25,,,,ICH_BASE,0.01,autoclave 15 min
+TH08,thermal,freeze_thaw,,NA,,-20.0,24.0,,,,ICH_BASE,0.01,freeze stress
+TH09,thermal,dry_heat,,NA,,70.0,48.0,,,,ICH_BASE,0.02,dry heat 70C mid
+TH10,thermal,dry_heat,,NA,,90.0,12.0,,,,ICH_BASE,0.02,dry heat 90C short
+HU01,humidity,RH,,NA,,25.0,168.0,,,60.0,ICH_BASE,0.02,60%RH 1 week
+HU02,humidity,RH,,NA,,40.0,168.0,,,75.0,ICH_BASE,0.08,75%RH 40C 1 week common
+HU03,humidity,RH,,NA,,30.0,336.0,,,75.0,ICH_BASE,0.04,75%RH 2 weeks
+HU04,humidity,RH,,NA,,25.0,336.0,,,75.0,ICH_BASE,0.02,75%RH 2 weeks RT
+HU05,humidity,RH,,NA,,40.0,72.0,,,75.0,ICH_BASE,0.03,75%RH 40C 3 days
+HU06,humidity,RH,,NA,,50.0,72.0,,,75.0,ICH_BASE,0.01,75%RH 50C 3 days
+PH01,photolysis,visible_light,,NA,,,,1200000.0,,,ICH_BASE,0.12,ICH Q1B visible exposure
+PH02,photolysis,uv_light,,NA,,,,,200.0,,ICH_BASE,0.08,ICH Q1B UV exposure

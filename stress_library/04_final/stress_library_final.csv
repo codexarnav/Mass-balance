@@ -1,0 +1,152 @@
+stress_id,stress_type,reagent,strength,unit,pH,temperature_C,duration_hr,light_lux_hr,uv_Wh_m2,humidity_RH,source,freq_weight,notes
+AC01,acid_hydrolysis,HCl,0.01,N,2.0,25.0,6.0,,,,ICH_BASE,0.00782608695652174,mild acid RT
+AC02,acid_hydrolysis,HCl,0.01,N,2.0,40.0,3.0,,,,ICH_BASE,0.010434782608695651,mild acid 40C
+AC03,acid_hydrolysis,HCl,0.01,N,2.0,60.0,1.0,,,,ICH_BASE,0.010434782608695651,mild acid 60C short
+AC04,acid_hydrolysis,HCl,0.05,N,1.5,40.0,6.0,,,,ICH_BASE,0.013043478260869566,moderate acid 40C long
+AC05,acid_hydrolysis,HCl,0.1,N,1.2,25.0,24.0,,,,ICH_BASE,0.00782608695652174,0.1N acid long RT
+AC06,acid_hydrolysis,HCl,0.1,N,1.2,40.0,6.0,,,,ICH_BASE,0.01565217391304348,0.1N acid 40C
+AC07,acid_hydrolysis,HCl,0.1,N,1.2,60.0,2.0,,,,ICH_BASE,0.020869565217391303,0.1N acid 60C common
+AC08,acid_hydrolysis,HCl,0.1,N,1.2,60.0,6.0,,,,ICH_BASE,0.013043478260869566,0.1N acid 60C long
+AC09,acid_hydrolysis,HCl,0.5,N,0.8,25.0,2.0,,,,ICH_BASE,0.00782608695652174,0.5N acid RT short
+AC10,acid_hydrolysis,HCl,1.0,N,0.5,25.0,2.0,,,,ICH_BASE,0.00782608695652174,strong acid RT short
+AC11,acid_hydrolysis,HCl,1.0,N,0.5,40.0,1.0,,,,ICH_BASE,0.010434782608695651,strong acid 40C
+AC12,acid_hydrolysis,HCl,1.0,N,0.5,60.0,0.5,,,,ICH_BASE,0.010434782608695651,strong acid 60C very short
+AC13,acid_hydrolysis,H2SO4,0.1,N,1.0,60.0,2.0,,,,ICH_BASE,0.005217391304347826,alt acid sulfuric
+AC14,acid_hydrolysis,H3PO4,0.1,N,1.5,60.0,2.0,,,,ICH_BASE,0.005217391304347826,alt acid phosphoric
+BA01,base_hydrolysis,NaOH,0.01,N,12.0,25.0,6.0,,,,ICH_BASE,0.00782608695652174,mild base RT
+BA02,base_hydrolysis,NaOH,0.01,N,12.0,40.0,3.0,,,,ICH_BASE,0.010434782608695651,mild base 40C
+BA03,base_hydrolysis,NaOH,0.01,N,12.0,60.0,1.0,,,,ICH_BASE,0.010434782608695651,mild base 60C short
+BA04,base_hydrolysis,NaOH,0.05,N,12.5,40.0,6.0,,,,ICH_BASE,0.013043478260869566,moderate base 40C long
+BA05,base_hydrolysis,NaOH,0.1,N,13.0,25.0,24.0,,,,ICH_BASE,0.00782608695652174,0.1N base long RT
+BA06,base_hydrolysis,NaOH,0.1,N,13.0,40.0,6.0,,,,ICH_BASE,0.01565217391304348,0.1N base 40C
+BA07,base_hydrolysis,NaOH,0.1,N,13.0,60.0,1.0,,,,ICH_BASE,0.020869565217391303,0.1N base 60C common
+BA08,base_hydrolysis,NaOH,0.1,N,13.0,60.0,2.0,,,,ICH_BASE,0.013043478260869566,0.1N base 60C longer
+BA09,base_hydrolysis,NaOH,0.5,N,13.5,25.0,2.0,,,,ICH_BASE,0.00782608695652174,0.5N base RT short
+BA10,base_hydrolysis,NaOH,1.0,N,14.0,25.0,2.0,,,,ICH_BASE,0.00782608695652174,strong base RT short
+BA11,base_hydrolysis,NaOH,1.0,N,14.0,40.0,1.0,,,,ICH_BASE,0.010434782608695651,strong base 40C
+BA12,base_hydrolysis,NaOH,1.0,N,14.0,60.0,0.5,,,,ICH_BASE,0.010434782608695651,strong base 60C very short
+OX01,oxidation,H2O2,0.3,%,,25.0,6.0,,,,ICH_BASE,0.00782608695652174,very mild oxidation
+OX02,oxidation,H2O2,0.5,%,,25.0,3.0,,,,ICH_BASE,0.010434782608695651,0.5% oxidation RT
+OX03,oxidation,H2O2,1.0,%,,25.0,3.0,,,,ICH_BASE,0.013043478260869566,1% oxidation RT
+OX04,oxidation,H2O2,3.0,%,,25.0,1.0,,,,ICH_BASE,0.020869565217391303,3% oxidation RT very common
+OX05,oxidation,H2O2,3.0,%,,25.0,0.5,,,,ICH_BASE,0.01565217391304348,3% oxidation 30 min
+OX06,oxidation,H2O2,3.0,%,,40.0,2.0,,,,ICH_BASE,0.013043478260869566,3% oxidation 40C
+OX07,oxidation,H2O2,10.0,%,,25.0,1.0,,,,ICH_BASE,0.010434782608695651,10% oxidation RT
+OX08,oxidation,H2O2,10.0,%,,40.0,2.0,,,,ICH_BASE,0.00782608695652174,10% oxidation 40C
+OX09,oxidation,H2O2,10.0,%,,60.0,0.5,,,,ICH_BASE,0.005217391304347826,10% oxidation 60C
+OX10,oxidation,H2O2,30.0,%,,25.0,0.5,,,,ICH_BASE,0.002608695652173913,aggressive peroxide
+OX11,oxidation,tert-Butyl hydroperoxide,0.1,M,,25.0,2.0,,,,ICH_BASE,0.002608695652173913,TBHP oxidation
+OX12,oxidation,AIBN,10.0,mg/mL,,60.0,6.0,,,,ICH_BASE,0.002608695652173913,radical initiator
+OX13,oxidation,H2O2,1.0,%,,40.0,6.0,,,,ICH_BASE,0.005217391304347826,1% oxidation 40C long
+OX14,oxidation,H2O2,3.0,%,,60.0,0.5,,,,ICH_BASE,0.005217391304347826,3% oxidation 60C
+OX15,oxidation,H2O2,0.3,%,,40.0,3.0,,,,ICH_BASE,0.005217391304347826,0.3% oxidation 40C
+OX16,oxidation,H2O2,0.5,%,,40.0,3.0,,,,ICH_BASE,0.005217391304347826,0.5% oxidation 40C
+TH01,thermal,dry_heat,,,,60.0,72.0,,,,ICH_BASE,0.010434782608695651,dry heat 60C 3 days
+TH02,thermal,dry_heat,,,,80.0,24.0,,,,ICH_BASE,0.020869565217391303,dry heat 80C common
+TH03,thermal,dry_heat,,,,80.0,72.0,,,,ICH_BASE,0.010434782608695651,dry heat 80C long
+TH04,thermal,dry_heat,,,,105.0,6.0,,,,ICH_BASE,0.010434782608695651,dry heat 105C short
+TH05,thermal,wet_heat,,,,60.0,24.0,,,,ICH_BASE,0.00782608695652174,wet heat 60C
+TH06,thermal,wet_heat,,,,80.0,6.0,,,,ICH_BASE,0.005217391304347826,wet heat 80C short
+TH07,thermal,autoclave,,,,121.0,0.25,,,,ICH_BASE,0.002608695652173913,autoclave 15 min
+TH08,thermal,freeze_thaw,,,,-20.0,24.0,,,,ICH_BASE,0.002608695652173913,freeze stress
+TH09,thermal,dry_heat,,,,70.0,48.0,,,,ICH_BASE,0.005217391304347826,dry heat 70C mid
+TH10,thermal,dry_heat,,,,90.0,12.0,,,,ICH_BASE,0.005217391304347826,dry heat 90C short
+HU01,humidity,RH,,,,25.0,168.0,,,60.0,ICH_BASE,0.005217391304347826,60%RH 1 week
+HU02,humidity,RH,,,,40.0,168.0,,,75.0,ICH_BASE,0.020869565217391303,75%RH 40C 1 week common
+HU03,humidity,RH,,,,30.0,336.0,,,75.0,ICH_BASE,0.010434782608695651,75%RH 2 weeks
+HU04,humidity,RH,,,,25.0,336.0,,,75.0,ICH_BASE,0.005217391304347826,75%RH 2 weeks RT
+HU05,humidity,RH,,,,40.0,72.0,,,75.0,ICH_BASE,0.00782608695652174,75%RH 40C 3 days
+HU06,humidity,RH,,,,50.0,72.0,,,75.0,ICH_BASE,0.002608695652173913,75%RH 50C 3 days
+PH01,photolysis,visible_light,,,,,,1200000.0,,,ICH_BASE,0.03130434782608696,ICH Q1B visible exposure
+PH02,photolysis,uv_light,,,,,,,200.0,,ICH_BASE,0.020869565217391303,ICH Q1B UV exposure
+LIT_0000,acid_hydrolysis,HCl,2.0,M,,,72.0,,200.0,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0001,acid_hydrolysis,HCl,1.0,M,,,72.0,,200.0,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0002,acid_hydrolysis,HCl,1.0,M,,,336.0,,200.0,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0003,acid_hydrolysis,HCl,2.0,M,,,336.0,,200.0,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0004,acid_hydrolysis,HCl,0.1,M,,,8.0,,200.0,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0005,acid_hydrolysis,HCl,2.0,M,,,8.0,,,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0006,acid_hydrolysis,HCl,0.1,M,,,85.0,,,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0007,acid_hydrolysis,HCl,1.0,M,,,70.0,,,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0008,acid_hydrolysis,HCl,1.0,M,,,1.0,,,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0009,base_hydrolysis,NaOH,2.0,M,,,72.0,,200.0,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0010,base_hydrolysis,NaOH,0.01,M,,,72.0,,200.0,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0011,base_hydrolysis,NaOH,0.1,M,,,8.0,,200.0,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0012,base_hydrolysis,NaOH,2.0,M,,,8.0,,,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0014,base_hydrolysis,NaOH,0.5,M,,,70.0,,,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0015,base_hydrolysis,NaOH,1.0,M,,,1.0,,,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0016,photolysis,light,,,,,72.0,,200.0,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0017,photolysis,light,,,,,2.0,,200.0,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0018,photolysis,light,,,,,336.0,,200.0,,LITERATURE,,Chemometrics Approaches in Forced Degradation
+LIT_0019,humidity,RH,,,,10.0,,,,75.0,LITERATURE,,Paper-1
+LIT_0020,thermal,dry_heat,,,,10.0,,,,75.0,LITERATURE,,Paper-1
+LIT_0023,acid_hydrolysis,HCl,0.5,N,,80.0,,,,,LITERATURE,,Paper-1
+LIT_0024,base_hydrolysis,NaOH,0.5,N,,80.0,,,,,LITERATURE,,Paper-1
+LIT_0025,humidity,RH,,,,25.0,,,,60.0,LITERATURE,,Paper-1
+LIT_0027,thermal,dry_heat,,,,40.0,,,,,LITERATURE,,Paper-1
+LIT_0028,thermal,dry_heat,,,,25.0,,,,60.0,LITERATURE,,Paper-1
+LIT_0030,thermal,dry_heat,,,,80.0,,,,,LITERATURE,,Paper-1
+LIT_0031,thermal,dry_heat,,,,25.0,48.0,,,,LITERATURE,,Paper-1
+LIT_0032,photolysis,light,,,,,,1200000.0,,,LITERATURE,,Paper-10
+LIT_0034,humidity,RH,,,,,,,,45.0,LITERATURE,,Paper-10
+LIT_0040,acid_hydrolysis,HCl,0.1,M,,,168.0,,,,LITERATURE,,Paper-11
+LIT_0041,acid_hydrolysis,HCl,0.1,N,,,48.0,,,,LITERATURE,,Paper-11
+LIT_0042,acid_hydrolysis,HCl,0.1,M,,,,,,,LITERATURE,,Paper-11
+LIT_0043,acid_hydrolysis,HCl,0.1,N,,,,,,,LITERATURE,,Paper-11
+LIT_0044,acid_hydrolysis,HCl,1.0,N,,110.0,3.0,,,,LITERATURE,0.08888888888888889,Paper-12
+LIT_0045,base_hydrolysis,NaOH,1.0,N,,110.0,3.0,,,,LITERATURE,0.08888888888888889,Paper-12
+LIT_0046,thermal,dry_heat,,,,110.0,3.0,,,,LITERATURE,,Paper-12
+LIT_0048,thermal,dry_heat,,,,2.0,48.0,,,,LITERATURE,,Paper-12
+LIT_0049,acid_hydrolysis,HCl,1.0,N,,60.0,,,,,LITERATURE,,Paper-12
+LIT_0050,acid_hydrolysis,HCl,1.0,N,,60.0,1.0,,,,LITERATURE,0.044444444444444446,Paper-12
+LIT_0051,base_hydrolysis,NaOH,1.0,N,,60.0,,,,,LITERATURE,,Paper-12
+LIT_0053,oxidation,H2O2,3.0,%,,60.0,1.0,,,,LITERATURE,0.044444444444444446,Paper-12
+LIT_0054,thermal,dry_heat,,,,60.0,,,,,LITERATURE,,Paper-12
+LIT_0055,thermal,dry_heat,,,,60.0,1.0,,,,LITERATURE,,Paper-12
+LIT_0062,base_hydrolysis,NaOH,1.0,N,,,,,,,LITERATURE,,Paper-13
+LIT_0064,thermal,dry_heat,,,,60.0,168.0,,,,LITERATURE,,Paper-13
+LIT_0069,thermal,dry_heat,,,,50.0,,,,,LITERATURE,,Paper-2
+LIT_0070,base_hydrolysis,NaOH,0.1,N,,60.0,,,,,LITERATURE,,Paper-2
+LIT_0071,thermal,dry_heat,,,,40.0,168.0,,,,LITERATURE,,Paper-2
+LIT_0073,thermal,dry_heat,,,,70.0,,,,,LITERATURE,,Paper-2
+LIT_0075,acid_hydrolysis,HCl,0.1,M,,40.0,,,,,LITERATURE,,Paper-2
+LIT_0076,base_hydrolysis,NaOH,0.1,M,,40.0,,,,,LITERATURE,,Paper-2
+LIT_0089,thermal,dry_heat,,,,40.0,5.0,,,,LITERATURE,,Paper-2
+LIT_0094,thermal,dry_heat,,,,60.0,5.0,,,,LITERATURE,,Paper-2
+LIT_0098,thermal,dry_heat,,,,25.0,5.0,,,,LITERATURE,,Paper-2
+LIT_0099,thermal,dry_heat,,,,5.0,5.0,,,,LITERATURE,,Paper-2
+LIT_0113,oxidation,H2O2,3.0,%,,40.0,,,,,LITERATURE,,Paper-2
+LIT_0131,thermal,dry_heat,,,,0.0,5.0,,,,LITERATURE,,Paper-2
+LIT_0141,acid_hydrolysis,HCl,0.1,M,,,5.0,,,,LITERATURE,,Paper-3
+LIT_0142,base_hydrolysis,NaOH,0.1,M,,,5.0,,,,LITERATURE,,Paper-3
+LIT_0143,oxidation,H2O2,3.0,%,,,5.0,,,,LITERATURE,,Paper-3
+LIT_0144,humidity,RH,,,,,5.0,,,75.0,LITERATURE,,Paper-3
+LIT_0147,base_hydrolysis,NaOH,0.1,M,,,,,,,LITERATURE,,Paper-3
+LIT_0148,oxidation,H2O2,3.0,%,,,,,,,LITERATURE,,Paper-3
+LIT_0156,acid_hydrolysis,HCl,1.0,M,,,168.0,,,,LITERATURE,,Paper-4
+LIT_0157,base_hydrolysis,NaOH,1.0,M,,,168.0,,,,LITERATURE,,Paper-4
+LIT_0158,thermal,dry_heat,,,,70.0,168.0,,,,LITERATURE,,Paper-4
+LIT_0160,thermal,dry_heat,,,,50.0,120.0,,,,LITERATURE,,Paper-4
+LIT_0164,thermal,dry_heat,,,,50.0,24.0,,,,LITERATURE,,Paper-4
+LIT_0166,thermal,dry_heat,,,,25.0,24.0,,,,LITERATURE,,Paper-4
+LIT_0168,thermal,dry_heat,,,,25.0,2.0,,,,LITERATURE,,Paper-4
+LIT_0170,thermal,dry_heat,,,,50.0,0.0,,,,LITERATURE,,Paper-4
+LIT_0174,thermal,dry_heat,,,,100.0,21.0,,,,LITERATURE,,Paper-4
+LIT_0177,thermal,dry_heat,,,,70.0,27.9,,,,LITERATURE,,Paper-4
+LIT_0181,oxidation,H2O2,3.0,%,,,11.0,,,,LITERATURE,,Paper-4
+LIT_0192,acid_hydrolysis,HCl,1.0,N,,,0.5,,,,LITERATURE,,Paper-5
+LIT_0193,acid_hydrolysis,HCl,1.0,N,,,,,,,LITERATURE,,Paper-5
+LIT_0195,base_hydrolysis,NaOH,1.0,N,,,0.25,,,,LITERATURE,,Paper-5
+LIT_0198,thermal,dry_heat,,,,30.0,1.3333333333333333,,,,LITERATURE,,Paper-7
+LIT_0199,acid_hydrolysis,HCl,1.0,N,,,0.25,,,,LITERATURE,,Paper-7
+LIT_0201,acid_hydrolysis,HCl,1.0,N,,60.0,0.25,,,,LITERATURE,0.044444444444444446,Paper-7
+LIT_0202,base_hydrolysis,NaOH,1.0,N,,60.0,0.1666666666666666,,,,LITERATURE,0.044444444444444446,Paper-7
+LIT_0203,oxidation,H2O2,30.0,%,,60.0,0.25,,,,LITERATURE,0.044444444444444446,Paper-7
+LIT_0205,photolysis,light,,,,25.0,240.0,1200000.0,,,LITERATURE,,Paper-7
+LIT_0206,thermal,dry_heat,,,,60.0,0.25,,,,LITERATURE,,Paper-7
+LIT_0208,thermal,dry_heat,,,,85.0,6.0,,,,LITERATURE,,Paper-7
+LIT_0209,thermal,dry_heat,,,,25.0,240.0,1200000.0,,,LITERATURE,,Paper-7
+LIT_0213,base_hydrolysis,NaOH,1.0,N,,,1.0,,,,LITERATURE,,Paper-8
+LIT_0217,thermal,dry_heat,,,,25.0,0.5,,,,LITERATURE,,Paper-9
+LIT_0218,thermal,dry_heat,,,,60.0,24.0,,,,LITERATURE,,Paper-9
+LIT_0221,thermal,dry_heat,,,,25.0,0.0666666666666666,,,,LITERATURE,,Paper-9
+LIT_0222,oxidation,H2O2,10.0,%,,,,,,,LITERATURE,,Paper-9
