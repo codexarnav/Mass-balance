@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader
 from sklearn.preprocessing import StandardScaler
 from torch_geometric.data import Batch
 from transformers import BertTokenizer, BertModel
-from model_train import GNNModel, ANNModel, StressEncoder, FusionModule, DrugStressDataset, collate_fn
+from scripts.model_train import GNNModel, ANNModel, StressEncoder, FusionModule, DrugStressDataset, collate_fn
 import warnings
 warnings.filterwarnings("ignore")
 
